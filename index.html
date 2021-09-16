@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tombola</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <!-- f_awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- animated -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- style.css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div>
+    <h1 class="text-center animate__animated animate__backInDown animate__delay-3s">Tombola</h1>
+
+    <table class="container mb-5">
+      <tbody class="row">
+        <tr id="tabella1" class="col-xs-12 d-flex justify-content-center">
+        </tr>
+        <tr id="tabella2" class="col-xs-12 d-flex justify-content-center">
+        </tr>
+        <tr id="tabella3" class="col-xs-12 d-flex justify-content-center">
+        </tr>
+        <tr id="tabella4" class="col-xs-12 d-flex justify-content-center">
+        </tr>
+        <tr id="tabella5" class="col-xs-12 d-flex justify-content-center">
+        </tr>
+        <tr id="tabella6" class="col-xs-12 d-flex justify-content-center">
+        </tr>
+        <tr id="tabella7" class="col-xs-12 d-flex justify-content-center">
+        </tr>
+        <tr id="tabella8" class="col-xs-12 d-flex justify-content-center">
+        </tr>
+        <tr id="tabella9" class="col-xs-12 d-flex justify-content-center">
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center">
+      <h3 class="random_number animate__animated animate__backInUp animate__delay-3s">Estrai numero</h3>
+      <h3 class="extracted-number animate__animated animate__zoomIn"></h3>
+      <h3 class="reset animate__animated animate__backInUp animate__delay-3s" onclick="location.reload()">Reset</h3>
+    </div>
+  </div>
+
+  <div id="smorfia" class="mt-4 mb-1 d-flex justify-content-center">
+
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'
+    integrity='sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=='
+    crossorigin='anonymous'></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
